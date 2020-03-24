@@ -1,0 +1,240 @@
+/* HEADER SECTION START */
+
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-header {
+    margin: 0 0 30px 0;
+    padding: 7% 0 0 0;
+    text-align: center;
+    line-height: 45px;
+    font-size: 2rem;
+    /* outline: 1px solid lime; */
+}
+
+.upper-row {
+    flex-direction: column;
+}
+
+.upper-row .logo {
+    margin: 0 auto;
+}
+
+.upper-row .logo img {
+    width: 150px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.nav-bar {
+    margin-bottom: 10px;
+    /* outline: 2px solid orange; */
+}
+
+.nav-bar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -35px;
+}
+
+.nav-bar ul li {
+    padding: 0 5px;
+}
+
+.service-buttons button {
+    margin-bottom: 1px;
+}
+
+/* HEADER SECTION END */
+
+
+
+/* SECTION INTRODUCTION START */
+
+.section-introduction .headline-gold {
+    font-size: 1.5rem;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.section-about-cook {
+    height: 500px;
+    width: 500px;
+    outline: 10px lime;
+}
+
+.figure-about-cook img {
+    margin-top: 150px;
+    margin-left: 20px;
+    width: 150px;
+}
+
+.article-about-cook {
+    height: 100px;
+    width: 300px;
+}
+
+/* .figure-about-dish {
+    outline: 1px black;
+} */
+
+.figure-about-dish {
+   display: none;
+}
+
+/* SECTION INTRODUCTION END */
+
+/* SECTION INGREDIENTS START */
+
+.section-ingredients {
+    justify-content: center;
+}
+
+.section-ingredients .headline-silver {
+    font-size: 1.3rem;
+}
+
+.article-ingredients {
+    padding: 0 20px;
+}
+
+.section-ingredients .info-box {
+    height: 600px;
+    width: 350px;
+    margin-right: 0;
+    /* outline: 1px solid rgb(187, 199, 197); */
+}
+
+.figure-ingredients {
+    width: 200px;
+    /* outline: 3px solid red; */
+}
+
+.ingredients-pics {
+    display: block;
+    /* outline: 2px solid lime; */
+}
+
+.ingredients-pics div {
+    width: 120px;
+    margin-left: 15px;
+}
+
+.image-bread,
+.image-spices {
+    display: none;
+}
+
+/* SECTION INGREDIENTS END */
+
+/* SECTION MENU START */
+
+.menu {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+}
+
+.section-menu-left,
+.section-menu-right {
+    width: 350px;
+    margin: 20px 0 0 0;
+}
+
+.menu table {
+    width: 350px;
+    /* outline: 3px solid lime; */
+}
+
+.special-border {
+    width: 350px;
+    top: 275px;
+    left: 0px;
+}
+
+.special-tag {
+    top: 250px;
+    right: -2px;
+}
+
+/* SECTION MENU END */
+
+/* SECTION GUEST-REVIEWS START */
+
+.guest-reviews-content {
+    width: 90vw;
+}
+
+.guest-reviews .headline-silver {
+    font-size: 2.3rem;
+}
+
+.article-guest-reviews {
+    font-size: 1.1rem;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+.article-guest-reviews img {
+    top: 10px;
+    left: 30px;
+    width: 20px;
+}
+
+.article-guest-reviews-gloss {
+    font-size: 0.8rem;
+}
+
+/* SECTION GUEST-REVIEWS END */
+
+/* SECTION RESERVATION START */
+
+.reservation {
+    height: auto;
+}
+
+.reservation-contact-form {
+    margin: 150px 0;
+}
+
+.reservation .picture-area {
+    display: none;
+}
+
+.reservation .headline-gold {
+    font-size: 2.1rem;
+}
+
+.reservation .booking-form-content {
+    width: 100vw;
+}
+
+.reservation .paragraph-1,
+.reservation .paragraph-2 {
+    width: 90vw;
+}
+
+.reservation .booking-form-content {
+    flex-direction: column;
+    align-items: center;
+}
+
+/* SECTION RESERVATION END */
+
+/* FOOTER START */
+
+footer {
+    flex-direction: column;
+    height: auto;
+}
+
+footer .about-us {
+    width: 90vw;
+    margin-left: 0;
+    margin-bottom: 0.5%;
+}
+
+/* FOOTER END */

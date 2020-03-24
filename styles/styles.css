@@ -1,0 +1,555 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+/* UTILITY CLASSES START */
+
+.headline-gold {
+    color: rgb(212, 144, 17);
+    font-size: 2.8rem;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+.headline-silver {
+    color: rgb(182, 178, 166);
+    font-size: 2.8rem;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+.divider-silver img {
+    width: 250px;
+}
+
+.divider-gold img {
+    width: 250px;
+}
+
+/* UTILITY CLASSES END */
+
+/* HEADER START */
+
+header {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/images/promo-background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.upper-row {
+    display: flex;
+    align-items: center;
+    /* outline: 1px solid green; */
+    font-size: 1.3rem;
+}
+
+.nav-bar ul {
+    display: flex;
+    margin-left: 250px;
+    list-style-type: none;
+    /* outline: 1px solid green; */
+}
+
+.nav-bar ul li {
+    padding: 32px;
+}
+
+.upper-row .logo {
+    margin-left: 200px;
+}
+
+.main-header {
+    margin: 0 0 30px 0;
+    padding: 7% 0 0 0;
+    text-align: center;
+    line-height: 140px;
+    font-size: 7.5rem;
+    /* outline: 1px solid lime; */
+}
+
+.divider-silver-header {
+    text-align: center;
+    /* outline: 1px solid lime; */
+}
+
+.divider-silver-header img {
+    height: 40px;
+    width: 300px;
+}
+
+.service-buttons {
+    text-align: center;
+}
+
+.service-buttons button {
+    height: 50px;
+    width: 250px;
+    margin: 30px 20px;
+    color: whitesmoke;
+}
+
+.service-buttons .book-table {
+    background-color: rgba(27, 25, 25, 0.7) ;
+    border: none;
+}
+
+.service-buttons .see-menu {
+    background-color: rgba(27, 25, 25, 0.3) ;
+}
+
+/* ---------- Social Media Buttons ---------- */
+
+.social-media-buttons {
+    color: chocolate;
+}
+
+.social-media-buttons img {
+    width: 25px;
+}
+
+.social-media-buttons i {
+    padding: 10px;
+}
+
+/* -------------------- */
+
+/* HEADER END */
+
+/* SECTION INTRODUCTION START */
+
+.section-introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 0;
+    width: 100vw;
+    height: 80vh;
+    background-image: url('/images/about-background.jpeg');
+    background-size: cover;
+}
+
+.section-about-cook {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 26vw;
+}
+
+.article-about-cook {
+    margin-top: 15px;
+    line-height: 30px;
+    width: 90%;
+}
+
+.figure-about-cook {
+    text-align: center;
+    width: 130px;
+}
+
+/* SECTION INTRODUCTION END */
+
+/* SECTION INGREDIENTS START */
+
+.section-ingredients {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 110vh;
+    background-image: url('/images/ingredients-background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(182, 178, 166);
+}
+
+.section-ingredients .info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33vw;
+    height: 70vh;
+    background-color: rgba(27, 25, 25, 0.7) ;
+    margin-right: 300px;
+}
+
+
+.article-ingredients {
+    padding: 0 90px;
+    text-align: center;
+    line-height: 25px;
+}
+
+/* ---------- Images ---------- */
+
+.figure-ingredients {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.ingredients-pics {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    /* outline: 1px solid blue; */
+}
+
+.ingredients-pics div {
+    width: auto;
+}
+
+.ingredients-pics img {
+    object-fit: none;
+    height: 150px;
+    width: 120px;
+}
+
+.image-grains img {
+    object-position: 25% 30%;
+}
+
+.image-spices img {
+    object-position: 28% 100%;
+}
+
+.image-bread img {
+    object-position: 45% 100%;
+}
+
+/* -------------------- */
+
+/* SECTION INGREDIENTS END */
+
+/* SECTION MENU START */
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    height: 140vh;
+    width: 100vw;
+    background-image: url('/images/menu-background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-appetisers,
+.menu-salads,
+.menu-starters,
+.menu-dishes {
+    text-align: center;
+    position: relative;
+}
+
+.menu-appetisers,
+.menu-starters {
+    margin-bottom: 30px;
+}
+
+.section-menu-left,
+.section-menu-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    /* outline: 1px solid lime; */
+}
+
+.section-menu-left {
+    margin-left: 200px;
+}
+
+.section-menu-right {
+    margin-right: 200px;
+}
+
+.menu table {
+    width: 500px;
+    text-align: left;
+    /* outline: 1px solid blue; */
+}
+
+.menu table th {
+    color: rgb(212, 144, 17);
+    font-size: 1.4rem;
+    border-bottom: 1px solid rgb(212, 144, 17);
+}
+
+.menu table th {
+    padding: 0 0 10px 0;
+}
+
+.menu table .price {
+    text-align: right;
+}
+
+.menu table td {
+    font-size: 1.1rem;
+    padding: 10px 0 45px 0;
+}
+
+.menu table .table-special {
+    text-align: center;
+    padding: 0;
+    /* outline: 1px solid black; */
+}
+
+.menu table .table-padding {
+    padding: 0 0 20px 0;
+}
+
+.special-border {
+    position: absolute;
+    top: 240px;
+    left: -10px;
+    height: 100px;
+    width: 520px;
+    border: 1px solid rgb(212, 144, 17);
+}
+
+.special-tag {
+    position: absolute;
+    top: 215px;
+    right: -12px;
+    height: 25px;
+    width: 80px;
+    background-color: rgb(212, 144, 17);
+    color: whitesmoke;
+    line-height: 20px;
+
+}
+
+/* SECTION MENU END */
+
+/* SECTION GUEST-REVIEWS START */
+
+.guest-reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/images/reviews-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(182, 178, 166);
+}
+
+.guest-reviews-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.83);
+}
+
+.article-guest-reviews {
+    position: relative;
+    padding: 0 90px;
+    text-align: center;
+    font-size: 1.65rem;
+    line-height: 50px;
+}
+
+.article-guest-reviews-gloss {
+    font-size: 1.2rem;
+}
+
+.article-guest-reviews img {
+    position: absolute;
+    width: 35px;
+    left: 60px;
+    top: 20px;
+    font-size: 2rem;
+}
+
+/* SECTION GUEST-REVIEWS END */
+
+/* SECTION RESERVATION START */
+
+.reservation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    width: 100vw;
+    background-image: url('/images/reservations-background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(182, 178, 166);
+}
+
+.reservation .picture-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reservation .picture-area img {
+    height: 580px;
+}
+
+.reservation .reservation-contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    /* outline: 1px solid lime; */
+}
+
+.reservation .reservation-contact-article {
+    font-size: 1.1rem;
+    line-height: 30px;
+    color:rgb(51, 46, 46);
+    text-align: center;
+}
+
+.reservation .paragraph-1 {
+    width: 550px;
+}
+
+.reservation .paragraph-2 {
+    width: 550px;
+    margin-bottom: 35px;
+}
+
+.reservation .booking-form-content {
+    display: flex;
+    justify-content:space-around;
+    width: 600px;
+    color: rgb(212, 144, 17);
+    font-weight: bolder;
+    /* outline: 2px dotted black; */
+}
+
+.reservation .form-left {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    /* outline: 3px solid rgb(145, 177, 59); */
+}
+.reservation .form-right {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    margin-right: 10px;
+    /* outline: 3px solid red; */
+}
+
+.reservation label {
+    margin-bottom: 8px;
+}
+
+.reservation input {
+    height: 35px;
+    width: 250px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(58, 55, 55);
+}
+
+.reservation input:focus {
+    border-color: rgb(212, 144, 17);
+}
+
+.reservation .submit {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.reservation #submit {
+    height: 45px;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    background-color: rgb(212, 144, 17);
+    border: none;
+}
+
+.booking-form-content input::placeholder {
+    font-style: italic;
+}
+
+/* SECTION RESERVATION END */
+
+/* FOOTER START */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 40vh;
+    width: 100vw;
+    background-color: black;
+    color: rgb(182, 178, 166);
+}
+
+footer h3 {
+    font-size: 1.8rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+footer .about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 490px;
+    margin-left: 30px;
+}
+
+footer .opening-hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 400px;
+}
+
+footer .our-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 400px;
+}
+
+footer .divider-footer {
+    margin-bottom: 15px;
+}
+
+.footer-cards,
+.footer-social-media-buttons {
+    margin-top: 60px;
+}
+
+/* FOOTER END */
