@@ -37,7 +37,7 @@ header {
     padding: 0;
     height: 100vh;
     width: 100vw;
-    background-image: url('/images/promo-background.jpeg');
+    background-image: url('../images/promo-background.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     color: whitesmoke;
@@ -132,7 +132,7 @@ header {
     padding: 0;
     width: 100vw;
     height: 80vh;
-    background-image: url('/images/about-background.jpeg');
+    background-image: url('../images/about-background.jpeg');
     background-size: cover;
 }
 
@@ -168,7 +168,7 @@ header {
     padding: 0;
     width: 100vw;
     height: 110vh;
-    background-image: url('/images/ingredients-background.jpeg');
+    background-image: url('../images/ingredients-background.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(182, 178, 166);
@@ -243,7 +243,7 @@ header {
     padding: 0;
     height: 140vh;
     width: 100vw;
-    background-image: url('/images/menu-background.jpeg');
+    background-image: url('../images/menu-background.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -346,7 +346,7 @@ header {
     padding: 0;
     height: 100vh;
     width: 100vw;
-    background-image: url('/images/reviews-background.png');
+    background-image: url('../images/reviews-background.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(182, 178, 166);
@@ -394,7 +394,7 @@ header {
     padding: 0;
     height: 90vh;
     width: 100vw;
-    background-image: url('/images/reservations-background.jpeg');
+    background-image: url('../images/reservations-background.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(182, 178, 166);
